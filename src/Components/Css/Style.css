@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    
+    /* margin: 10px; */
+    /* border: black; */
+    /* flex-wrap: wrap; */
+    display: flex;
+    border-style: ridge;
+}
+.genderclass{
+
+    border: 1px solid black ;
+    
+}
+.cardclass{
+    border:1px solid black ;
+    display: grid;
+    grid-template-columns:369px 370px 370px 370px;
+}
+.main{
+    /* border-style: ridge ; */
+    display: flex;
+}
+.Cards{
+    display:flex;
+    flex-wrap: wrap;  
+    width: 200px;
+ 
+}
