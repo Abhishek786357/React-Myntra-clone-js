@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./Navbar";
+import Navbar from "./Components/Navbar";
 import Cards from "./Components/Cards";
 import Radio from "./Components/Radio";
 import Checkbox from "./Components/Checkbox";
 // import Brand from "./Components/Brand";
 import React, { useState, useEffect } from "react";
-import "./Components/Css/Style.css";
+import "./Components/Css/Cards.css";
 // import "bootstrap/dist/css/bootstrap.min.css";
 const App = () => {
   const [items, myfun] = useState([]);
